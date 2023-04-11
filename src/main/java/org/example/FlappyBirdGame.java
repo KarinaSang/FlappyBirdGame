@@ -69,7 +69,7 @@ public class FlappyBirdGame extends GameApplication {
 
     @Override
     protected void onUpdate(double tpf) {
-        FXGL.inc("score", 1);
+        FXGL.inc("score", +1);
     }
 
     public static void main(String[] args) {

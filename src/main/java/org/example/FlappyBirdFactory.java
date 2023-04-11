@@ -19,6 +19,7 @@ public class FlappyBirdFactory implements EntityFactory {
                 .view(animatedBird)
                 .at(100, 100)
                 .with(birdComponent)
+                .with(new TubeBuildingComponent())
                 .build();
     }
 }
